@@ -7,12 +7,13 @@ Climate Analysis and Exploration
 Climate App
 Temperature Analysis
 Daily Rainfall Average
-🏁 Getting Started
-Climate Analysis and Exploration:
+
+## Getting Started
+### Climate Analysis and Exploration:
 
 using Python and SQLAlchemy to do basic climate analysis and data exploration of your climate database.
 
-Precipitation Analysis:
+### Precipitation Analysis:
 
 • Designing a query to retrieve the last 12 months of precipitation data.
 
@@ -24,7 +25,7 @@ Precipitation Analysis:
 
 • Using Pandas to print the summary statistics for the precipitation data.
 
-Station Analysis:
+### Station Analysis:
 
 • Designing a query to calculate the total number of stations.
 
@@ -32,7 +33,7 @@ Station Analysis:
 
 • Designing a query to retrieve the last 12 months of temperature observation data (TOBS).
 
-Climate App:
+### Climate App:
 
 designing a Flask API based on the queries that we have just developed.
 
@@ -46,8 +47,8 @@ designing a Flask API based on the queries that we have just developed.
 
 • List of the minimum temperature, the average temperature, and the max temperature for dates between the given start date and given end date.
 
-Bonus Part - Temperature Analysis .
-Temperature Analysis I:
+## Bonus Part - Temperature Analysis .
+### Temperature Analysis I:
 
 • Hawaii is reputed to enjoy mild weather all year. Is there a meaningful difference between the temperature in, for example, June and December?
 
@@ -55,7 +56,7 @@ Temperature Analysis I:
 
 • Use the t-test to determine whether the difference in the means, if any, is statistically significant. Will you use a paired t-test, or an unpaired t-test? Why?
 
-Temperature Analysis II:
+### Temperature Analysis II:
 
 • The starter notebook contains a function called calc_temps that will accept a start date and end date in the format %Y-%m-%d. The function will return the minimum, average, and maximum temperatures for that range of dates.
 
@@ -63,7 +64,7 @@ Temperature Analysis II:
 
 • Plotting the min, avg, and max temperature from your previous query as a bar chart. o Using the average temperature as the bar height. o Using the peak-to-peak (TMAX-TMIN) value as the y error bar (YERR).
 
-Daily Rainfall Average:
+### Daily Rainfall Average:
 
 • Calculating the rainfall per weather station using the previous year's matching dates.
 
